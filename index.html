@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jenro Portfolio</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!--- #HEADER -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#">
+        <h1 class="logo">JPM</h1>
+      </a>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+
+      <nav class="navbar container">
+        <ul class="navbar-list">
+          <li><a href="#about" class="navbar-link" data-nav-link>About</a></li>
+          <li><a href="#skills" class="navbar-link" data-nav-link>Skills</a></li>
+          <li><a href="#projects" class="navbar-link" data-nav-link>Projects</a></li>
+          <li><a href="#challenges" class="navbar-link" data-nav-link>Challenges & Learnings</a></li>
+          <li><a href="#future" class="navbar-link" data-nav-link>Future Plans</a></li>
+          <li><a href="#resume" class="navbar-link" data-nav-link>Resume</a></li>
+          <li><a href="#contact" class="navbar-link" data-nav-link>Contact</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!--- #Home-->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-banner">
+
+            <img src="/images/pic1.jpg" width="800" height="864" loading="lazy" alt="Ethan's Photo"
+              class="img-cover">
+
+            <div class="elem elem-1">
+              <p class="elem-title">3</p>
+
+              <p class="elem-text">Years in College</p>
+            </div>
+
+            <div class="elem elem-3">
+              <ion-icon name="code"></ion-icon>
+            </div>
+
+            <img src="images/pic3.png" width="169" height="172" alt="I'm developer from New York"
+              class="rotate-img">
+
+          </div>
+
+          <div class="hero-content">
+
+            <h2 class="hero-title">
+              <span>Hello I'm</span>
+              <strong>Jenro Magbanua</strong> A Computer Science Student
+            </h2>
+
+            <p class="hero-text">
+             I spend my days battling semicolons, convincing my code to cooperate, and pretending to understand error messages. When I’m not coding, I’m probably binge-watching anime, playing online games, or imagining what it's like to sleep 8 hours a day.
+            </p>
+
+            <div class="btn-group">
+
+              <a href="#about" class="btn">About Me</a>
+              <a href="https://web.facebook.com/Jinroo05" target="_blank" class="btn social-btn" aria-label="Facebook" style="padding: 0 12px;">
+                <ion-icon name="logo-facebook" style="font-size: 4rem; vertical-align: middle;"></ion-icon>
+              </a>
+              <a href="https://www.instagram.com/jen_040502/" target="_blank" class="btn social-btn" aria-label="Instagram" style="padding: 0 12px;">
+                <ion-icon name="logo-instagram" style="font-size: 4rem; vertical-align: middle;"></ion-icon>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- - #ABOUT -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+
+            <img src="/images/pic2.jfif" width="800" height="652" loading="lazy" alt="Ethan's Photo"
+              class="img-cover">
+
+            <img src="images/family.jpg" width="800" height="717" loading="lazy" alt="Ethan's Photo"
+              class="abs-img">           
+
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">Me, Myself, My Family</p>
+
+            <p class="section-text">
+              I'm Jenro P. Magbanua, 23 years old, and I live in Bacoor, Cavite. I’m currently a 3rd-year college 
+              student taking up a Bachelor of Science in Computer Science. I enjoy learning about technology and 
+              improving my skills in programming and design. Although the journey is challenging, I’m determined 
+              to grow and make the most of my college life.</p>
+
+            <p class="section-text">
+I’m just a simple guy who loves spending time playing online games, watching anime and Marvel movies, and reading 
+manhwas. Aside from those, I also enjoy cooking—I actually prepare most of our meals at home. My favorite dishes 
+to cook are adobo and sinigang, and I take pride in making them taste just right for my family.</p>
+
+           <p class="section-text">
+              My family consists of six members, including me. I don’t have a biological father with us anymore, but we live with 
+my stepfather who takes care of us. I have three siblings, and we’re a happy and supportive family living a simple, 
+content life. We may not have much, but we have each other—and that’s what truly matters.
+            </p>
+
+            <a href="#skills" class="btn btn-primary blue">View Skills</a>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!--- #SKILLS -->
+
+      <section class="section skills" id="skills">
+        <div class="container">
+
+          <p class="section-subtitle">Skills</p>
+
+          <h2 class="h2 section-title">My Skills, Achievements and Trainings</h2>
+
+          <ul class="skills-list">
+
+            <!-- Example Skill -->
+            <li class="skills-item">
+              <div class="wrapper" style="width: 40%">
+                <h3 class="skills-title">HTML/CSS</h3>
+
+                <data class="skills-data" value="40">40%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 40%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 20%">
+                <h3 class="skills-title">Javascript</h3>
+
+                <data class="skills-data" value="20">20%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 20%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 10%">
+                <h3 class="skills-title">Java</h3>
+
+                <data class="skills-data" value="10">10%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 10%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 10%">
+                <h3 class="skills-title">Python</h3>
+
+                <data class="skills-data" value="90">10%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 10%"></div>
+              </div>
+            </li>
+          </ul>
+          <br>
+          <br>
+
+          <p class="section-text">
+          <strong>Achievements</strong><br>Currently, I do not have official certificates yet, but I am open to 
+          future learning opportunities such as online courses, workshops, and seminars.</p><br>
+
+          <p class="section-text">
+          <strong>Trainings</strong><br>I am currently seeking opportunities to attend seminars, webinars, and 
+          training sessions related to technology, software development, and personal growth.</p>
+
+          
+          <!-- - #PROJECTS-->
+
+      <section class="section portfolio" id="projects">
+        <div class="container">
+
+          <p class="section-subtitle">Projects</p>
+          <h2 class="h2 section-title">My Projects</h2>
+
+          <ul class="portfolio-list">
+
+            <li>
+              <div class="portfolio-card" style="background-image: url('images/proj1.PNG')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Online Birthday Greetings</p>
+                  <h3 class="h3 card-title">Birthday Greetings for my Crush</h3>
+
+                  <a href="https://github.com/Jenro040502/Bday" target="_blank" class="btn-link">
+                    <span>View Project</span>
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </a>
+
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="portfolio-card" style="background-image: url('images/proj2.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Enrolment System</p>
+                  <h3 class="h3 card-title">Online Enrollment System</h3>
+
+                  <a href="https://github.com/Daves03/Project" target="_blank" class="btn-link">
+                    <span>View Project</span>
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </a>
+
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+         <!-- CHALLENGES AND LEARNINGS -->
+    <section class="section" id="challenges">
+      <div class="container">
+        <p class="section-subtitle">Challenges & Learnings</p>
+        <h2 class="h2 section-title">What I've Overcome & Learned</h2>
+        <p class="section-text">
+         <strong>What I Faced</strong><br>
+      One of the main challenges we faced was figuring out how to make the system work smoothly, 
+      especially since we were still learning some of the tools and languages needed. There were 
+      times when things didn’t go as planned—errors in the code, delays in progress, and moments of 
+      confusion. But we kept pushing, helping each other out and learning as we went.<br><br>
+<strong>What I Learn</strong><br>
+      Through this project, I learned that patience and teamwork really matter. It’s okay to make 
+      mistakes—as long as you’re willing to learn and improve. I also realized the importance of 
+      time management and communication, especially when working with a team. Overall, this experience 
+      helped me grow not just in skills, but also in mindset.
+        </p>
+      </div>
+    </section>
+
+    <!-- FUTURE PLANS IN LIFE -->
+    <section class="section" id="future">
+      <div class="container">
+        <p class="section-subtitle">Future Plans</p>
+        <h2 class="h2 section-title">My Goals & Aspirations</h2>
+        <p class="section-text">
+          In the future, I plan to continue pursuing my studies in Computer Science and eventually find 
+          a job that matches my skills and knowledge. I hope to work in a field where I can grow 
+          professionally and apply what I’ve learned.<br><br>
+
+         Aside from a career in tech, I also dream of starting my own business—perhaps a café or a 
+         restaurant. I’ve always been interested in food and cooking, so building something around 
+         that passion is definitely one of my long-term goals.
+        </p>
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <section class="section" id="resume">
+      <div class="container">
+        <p class="section-subtitle">Resume</p>
+        <h2 class="h2 section-title">My Resume</h2>
+        <div style="width:100%;max-width:800px;margin:auto;">
+          <iframe src="Resume.pdf" width="100%" height="600px" style="border:1px solid #ccc;border-radius:10px;"></iframe>
+        </div>
+      </div>
+    </section>
+
+ <!-- - #CONTACT-->
+
+      <section class="section contact" id="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <p class="card-subtitle">Contact</p>
+
+            <h2 class="h2 section-title">Get In Touch</h2>
+
+            <form action="" class="contact-form">
+
+              <input type="text" name="name" placeholder="Name" required class="contact-input">
+
+              <input type="email" name="email" placeholder="Email" required class="contact-input">
+
+              <textarea name="message" placeholder="Message" required class="contact-input"></textarea>
+
+              <button type="submit" class="btn-submit">Submit Message</button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+<!-- - #FOOTER-->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        &copy; 2022 <a href="#home" class="copyright-link">Jinroooo</a>. All Rights Reseverd
+      </p>
+
+      <ul class="footer-list">
+        <li>
+          <a href="terms.html" class="footer-link">Terms & Condition</a>
+        </li>
+
+        <li>
+          <a href="privacy.html" class="footer-link">Privacy Policy</a>
+        </li>
+      </ul>
+
+    </div>
+  </footer>
+
+<!-- - #BACK TO TOP -->
+
+  <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+
+<!-- - custom js link -->
+  <script src="script.js"></script>
+
+<!-- - ionicon link-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
